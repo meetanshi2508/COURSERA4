@@ -1,0 +1,133 @@
+body{
+    font-size: 16px;
+    color: blueviolet;
+     background-color: rgb(163, 144, 131) ; 
+    font-family: cursive;
+}
+#header-nav{
+    /* background-color: rgba(32, 19, 19, 0.938); */
+    background-color: rgb(80, 64, 53) ; 
+    padding-bottom: 30px;
+    border-radius: 0;
+    border: 0;}
+
+    .navbar-brand{
+        font-size: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .navbar-brand h1{
+        font-family: 'Pacifico', serif;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px #4A3728;
+        margin-left: 10%;
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: .75 ;
+    }
+    .navbar-brand a:hover, .navbar-brand a:focus{
+        text-decoration: none;
+    
+    }
+
+    .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+        border: 1px solid grey;
+        /* position: sticky; */
+    }
+    .navbar-header button.navbar-toggle{
+        clear: both;
+        margin-top: -30px;
+    /* position: sticky; */
+}
+
+    
+
+
+    #nav-list{
+        margin-top: 1chicken
+    }
+
+    #nav-list a{
+        color: blanchedalmond;
+        text-align: center;
+        
+    }
+    #nav-list a:hover {
+        background-color: rgb(167, 127, 127);
+    
+
+    }
+    #nav-list a span {
+        font-size: 1.8em;
+    }
+
+    #title{
+        font-size: 30px;
+        color:black;
+        margin-bottom: 20px;
+    
+    }
+    /* #home-tiles{
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+    .row{
+        margin-left: 0;
+        margin-right: 0;
+        
+    }
+    */
+
+    .container{
+        width: 100%;
+    }
+
+    #chicken-tile, #beef-tile, #sushi-tile{
+        height: 80%;
+        width: 100%;
+         margin-bottom: 40px; 
+          /* padding-left: 0;
+          padding-right: 0; */
+         position: relative;
+         border: 2px solid black;
+         overflow: hidden;
+    
+        background-color: rgb(80, 64, 53) ; 
+            }
+            
+            #chicken-tile:hover, #beef-tile:hover, #sushi-tile:hover{
+                box-shadow: 0px 1px 5px 1px gray;
+            } 
+            #chicken-tile span, #beef-tile span, #sushi-tile span{
+                position: absolute;
+                color: black;
+                top: 0;
+                right: 0;
+                width: 100%;
+                text-align: center;
+                font-size: 1.6em;
+              
+                opacity: 0.8;
+            }
+            #chicken-tile p, #beef-tile p, #sushi-tile p{
+             
+                padding-top: 20px;
+                margin-top: 20px;
+                font-size: 1.0em;
+                text-align: center;
+                color: lavenderblush;
+            }
+           
+
+
+          
+            
+        
+
+      
+
+   
